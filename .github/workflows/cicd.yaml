@@ -39,4 +39,4 @@ jobs:
         git config --global user.name "Viraj Dalave"
         git add kubernetes/deployment.yaml
         git commit -m "[CI]: Update deployment image tag"
-        git push origin HEAD: -f
+        git push origin HEAD:main -f
